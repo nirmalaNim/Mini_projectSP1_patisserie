@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART</title>
+    <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="container-fluid mt-5">
+        <a href="index.html"><strong>Home</strong></a>
+        <a href="new.html"><strong>About</strong></a>
+        <a href="menu.html"><strong>Menu</strong></a>
+        <h2 class="mb-5 text-center"><b>YOUR ORDERS</b></h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="table-responsive">
+                    <table id="myTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>Patisserie</th>
+                                <th>Name</th>
+                                <th>Qty</th>
+                                <th>Price</th>
+                                <th class="text-right">
+                                    <span id="amount" class="amount">Amount</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-prdct">
+                                            <img src="img5.png" height=125px>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Ferrero rocher Cake</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                    <input type="text" name="qty" min="0" class="qty form-control" value="0">
+                                    </button>
+                                    <button class="cart-qty-minus" type="button" value="-">-</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="999" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs <span id="amount" class="amount">0</span>
+                                </td>
+                            </tr> 
+                            <!---------copy2---------->
+
+
+                            
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-prdct">
+                                            <img src="img6.jfif">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Chocolate Wonderland Cupcake</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                    <input type="text" name="qty" min="0" class="qty form-control" value="0">
+                                    </button>
+                                    <button class="cart-qty-minus" type="button" value="-">-</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="240" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs <span id="amount" class="amount">0</span>
+                                </td>
+                            </tr>
+
+                            <!--3------------->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-prdct">
+                                            <img src="img7.jpg" >
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Choco Truffle Cake</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                    <input type="text" name="qty" min="0" class="qty form-control" value="0">
+                                    </button>
+                                    <button class="cart-qty-minus" type="button" value="-">-</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="1799" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs <span id="amount" class="amount">0</span>
+                                </td>
+                            </tr>
+
+                            <!------------------------4------------------>
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-prdct">
+                                            <img src="img8.jpg" height=170px>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Vanilla Cupcakes</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                    <input type="text" name="qty" min="0" class="qty form-control" value="0">
+                                    </button>
+                                    <button class="cart-qty-minus" type="button" value="-">-</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="260" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs <span id="amount" class="amount">0</span>
+                                </td>
+                            </tr>
+
+
+                            <!-------------5----------------------------->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-prdct">
+                                            <img src="img9.jpg" >
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Kitkat Basket Cake</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                    <input type="text" name="qty" min="0" class="qty form-control" value="0">
+                                    </button>
+                                    <button class="cart-qty-minus" type="button" value="-">-</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="1599" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs <span id="amount" class="amount">0</span>
+                                </td>
+                            </tr>
+                           <!-------------6----------------------->
+                           <tr>
+                            <td>
+                                <div class="product-img">
+                                    <div class="img-prdct">
+                                        <img src="img10.jpg" >
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <p>Oreo cupCake</p>
+                            </td>
+                            <td>
+                                <div class="button-container">
+                                    <button class="cart-qty-plus" type="button" value="+">+</button>
+                                <input type="text" name="qty" min="0" class="qty form-control" value="0">
+                                </button>
+                                <button class="cart-qty-minus" type="button" value="-">-</button>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="text" value="240" class="price form-control" disabled>
+                            </td>
+                            <td align="right">Rs <span id="amount" class="amount">0</span>
+                            </td>
+                        </tr>
+
+                            <!--------------------------7------------------->
+                            <tr>
+                                <td>
+                                    <div class="product-img">
+                                        <div class="img-prdct">
+                                            <img src="img2.jfif" >
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>Red Velvet Cake</p>
+                                </td>
+                                <td>
+                                    <div class="button-container">
+                                        <button class="cart-qty-plus" type="button" value="+">+</button>
+                                    <input type="text" name="qty" min="0" class="qty form-control" value="0">
+                                    </button>
+                                    <button class="cart-qty-minus" type="button" value="-">-</button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" value="1299" class="price form-control" disabled>
+                                </td>
+                                <td align="right">Rs <span id="amount" class="amount">0</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4"></td>
+                                <td align="right">
+                                    <strong>TOTAL = Rs <span id = "total" class="total">0</span>
+                                    </strong>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href ="payment.html"><h3><p style="text-align: center;">PROCEED FOR PAYMENT</p></h3></a>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src="main.js"></script>
+</body>
+</html>
